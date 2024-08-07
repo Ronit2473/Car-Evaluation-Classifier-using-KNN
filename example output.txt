@@ -1,0 +1,14 @@
+Example Output
+plaintext
+Copy code
+   buying  maint  door persons lug_boot safety  class
+0  vhigh  vhigh     2       2   small   low  unacc
+1  vhigh  vhigh     2       2   small   med  unacc
+2  vhigh  vhigh     2       2   small   high  unacc
+3  vhigh  vhigh     2       4   small   low  unacc
+4  vhigh  vhigh     2       4   small   med  unacc
+
+Accuracy: 0.95
+Prediction: unacc  Data: [3, 0, 3, 2, 2]  Actual: unacc
+Prediction: acc  Data: [2, 3, 2, 1, 1]  Actual: acc
+...

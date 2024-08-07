@@ -1,0 +1,13 @@
+Detailed Description
+Data Loading and Preprocessing:
+
+The dataset is loaded from a CSV file (car.data) using pandas.
+Categorical attributes are converted into numerical values using LabelEncoder from sklearn.preprocessing.
+The attributes (buying, maint, door, persons, lug_boot) are encoded and combined into a feature set X.
+The target variable (class) is also encoded into numerical values and stored in y.
+Model Training and Evaluation:
+
+The dataset is split into training and testing sets using an 90-10 split with train_test_split from sklearn.model_selection.
+A K-Nearest Neighbors classifier is instantiated with 11 neighbors and trained on the training set.
+The accuracy of the model is evaluated on the test set, and the accuracy score is printed.
+Predictions are made on the test set, and the predicted class, input data, and actual class are printed for each test instance.
